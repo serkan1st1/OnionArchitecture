@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace OnionArchitecture.Presentatiton.Abstraction
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public abstract class ApiController : ControllerBase
     {
+
     }
 }
