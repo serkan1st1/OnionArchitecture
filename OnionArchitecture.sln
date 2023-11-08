@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Infrastructure", "OnionArchitecture.Infrastructure\OnionArchitecture.Infrastructure.csproj", "{FD5CB144-55FB-4BF5-8B00-4B81BBFF3F78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Persistence", "OnionArchitecture.Persistence\OnionArchitecture.Persistence.csproj", "{1A1F873D-5835-485D-8757-334FD217FE29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Persistance", "OnionArchitecture.Persistence\OnionArchitecture.Persistance.csproj", "{1A1F873D-5835-485D-8757-334FD217FE29}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Presentatiton", "OnionArchitecture.Presentatiton\OnionArchitecture.Presentatiton.csproj", "{3126BEB0-07CC-4D01-AAD1-56469FCEACF2}"
 EndProject

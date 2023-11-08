@@ -1,7 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using OnionArchitecture.Persistance.Context;
 using OnionArchitecture.Presentatiton;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer
+        (builder.Configuration.GetConnectionString("SqlServer")));
 // Add services to the container.
 
 builder.Services.AddControllers()
