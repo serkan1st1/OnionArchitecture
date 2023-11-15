@@ -12,7 +12,7 @@ namespace OnionArchitecture.Domain.Entities
     {
         public string CustomerName { get; set; }
         public DateTime OrderDate { get; set; }
-
+        public string CompId { get; set; }
         public string ProductId { get; set; }
         public Product Product { get; set; }
     }
